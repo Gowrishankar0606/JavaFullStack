@@ -1,0 +1,36 @@
+Types of Tags
+
+Container 
+
+Container tags are generally divided into three parts, i.e., opening tag, content(which will display on the browser), and closing tag. 
+In the content part, they can also contain some other tags. 
+These opening and closing tags are used in pairs which are start tag and end tag, which are often called ON and OFF tags.
+
+Examples: 
+
+<head> </head>
+<Header></header>
+<nav></nav>
+<p></p>
+<h1></h1>
+
+Empty
+
+The tags that do not contain any closing tags are known as empty tags. Empty tags contain only the opening tag but they perform some action in the webpage.
+<br>
+<hr>
+<img>
+<input>
+	
+INLINE and BLOCK Elements
+
+HTML Block elements, are used to structure the main content of a webpage. 
+They typically start on a new line and take up the full width of their container 
+
+Examples: <div>, <p>, <h1> to <h6>, and <ul>, etc.
+
+An inline element does not start on a new line.
+An inline element only takes up as much width as necessary.
+Inline elements are used within block-level elements to style or format specific parts of the content.
+
+Example:<a> <button> <abbr> <small> <sub> <sup> etc...
