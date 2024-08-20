@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+:root {
+  --saffron: #ff6600;
+  --green: #046434;
+  --blue: #1c1ca5;
+}
+
+/* You can change the body color as per your needs */
+body {
+  background-color: aliceblue;
+display:flex;
+justify-content: center; 
+  align-items: center;
+height:100vh;
+margin:0;
+}
+
+/* Flag is 300x200 */
+.flag {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+}
+
+/* It will divide each section (saffron, white, green) equally */
+.flag > * {
+  flex: 1;
+}
+
+.saffron {
+  background-color: var(--saffron);
+}
+
+.white {
+  position: relative;
+  background-color: white;
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.wheel {
+  height: 67px;
+  width: 67px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 2px solid var(--blue);
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.line {
+  position: absolute;
+  height: 50%;
+  width: 2px;
+  background-color: var(--blue);
+  top: 0;
+  left: 50%;
+  transform-origin: bottom;
+}
+
+/* Styling each line (spoke) individually */
+.line:nth-child(1) { transform: rotate(0deg); }
+.line:nth-child(2) { transform: rotate(15deg); }
+.line:nth-child(3) { transform: rotate(30deg); }
+.line:nth-child(4) { transform: rotate(45deg); }
+.line:nth-child(5) { transform: rotate(60deg); }
+.line:nth-child(6) { transform: rotate(75deg); }
+.line:nth-child(7) { transform: rotate(90deg); }
+.line:nth-child(8) { transform: rotate(105deg); }
+.line:nth-child(9) { transform: rotate(120deg); }
+.line:nth-child(10) { transform: rotate(135deg); }
+.line:nth-child(11) { transform: rotate(150deg); }
+.line:nth-child(12) { transform: rotate(165deg); }
+.line:nth-child(13) { transform: rotate(180deg); }
+.line:nth-child(14) { transform: rotate(195deg); }
+.line:nth-child(15) { transform: rotate(210deg); }
+.line:nth-child(16) { transform: rotate(225deg); }
+.line:nth-child(17) { transform: rotate(240deg); }
+.line:nth-child(18) { transform: rotate(255deg); }
+.line:nth-child(19) { transform: rotate(270deg); }
+.line:nth-child(20) { transform: rotate(285deg); }
+.line:nth-child(21) { transform: rotate(300deg); }
+.line:nth-child(22) { transform: rotate(315deg); }
+.line:nth-child(23) { transform: rotate(330deg); }
+.line:nth-child(24) { transform: rotate(345deg); }
+
+
+
+.wheel {
+  height: 67px;
+  width: 67px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 2px solid var(--blue);
+  position: relative;
+  display: grid;
+  place-items: center;
+  animation: spin 4s linear infinite;
+
+  -webkit-box-reflect: below 0px linear-gradient(transparent, rgba(0, 0, 0, 0.1));
+}
+
+
+
