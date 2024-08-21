@@ -1,0 +1,31 @@
+
+body{
+background-color:lightblue;
+}
+h1{color:white}
+h2{color:red}	
+p{font-family:vernda;border-style:double;text-align:center;font-size:50px;}
+.shadow{
+text-shadow:3px 4px blue;
+border-width:30px;
+border-color:blue;
+padding-bottom:10px;
+border-style:double;
+}
+
+.css{
+border-style:none;
+text-align:left;
+font-size:20px;
+}
+button{
+margin-left:50px;
+color:white;
+background-color:green;
+border-radius: 8px;
+font-size:25px;
+border-color:white;
+}
+button:hover {
+  background-color: pink;
+  color: black;
