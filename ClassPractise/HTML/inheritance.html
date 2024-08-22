@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto and Inherit</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            color: green;
+        }
+        .auto{
+            height: auto; /*automatically adjust based on the content */
+            background-color: aqua;
+        }
+        .inherit{
+            height:inherit;
+            background-color: aqua;
+        }
+        p{
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>GSLA</h1>
+    <div class="auto">
+        <p>
+            dding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea why
+dding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea why        
+</p>
+    </div>
+
+    <div class="inherit">
+        <p>
+            dding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea whydding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea whydding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea whydding [Parallelizable(ParallelScope.Children)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.All)] to class and [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open. Only the last test (NavigatoToYahoo) is executed and provides the result. The first 2 - no other action happens and the browser windows are not closed, meaning TearDown() method is not executed.
+
+Just adding [Parallelizable(ParallelScope.Self)] to every test method. The result - 3 browser instances open with no other actions. No URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.Self)] attributes to every test method. The result - 3 browser instances open. The second test (NavigateToMicrosoft) gets executed, the rest 2 - no other action, no URL navigating, nothing.
+
+Adding [Parallelizable(ParallelScope.Self)] to the class and [Parallelizable(ParallelScope.All)] attributes to every test method. The result - getting error message May not specify ParallelScope.Children on a non-parameterized test method - honestly have no idea why
+        </p>
+
+    </div>
+</body>
+</html>
