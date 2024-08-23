@@ -31,6 +31,7 @@ p{
     height: 280px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    filter: blur(2px);
 
 }
 .container:hover{
@@ -45,6 +46,7 @@ p{
     height: 280px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    filter: brightness(240%);
 
 }.img3{
     object-position: top;
@@ -53,6 +55,7 @@ p{
     height: 280px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    filter:saturate(40%);
 
 }.img4{
     object-position: top;
@@ -61,5 +64,6 @@ p{
     height: 280px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    filter: drop-shadow(16px 16px 20px blue);
 
 }
