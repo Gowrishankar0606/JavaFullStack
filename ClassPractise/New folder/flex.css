@@ -1,0 +1,40 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+.container{
+    display: flex;
+    justify-content: start;
+    border: 6px solid black;
+    height: 90vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    column-gap: 1em;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: brown;
+}
+#box3{
+    background-color: blueviolet;
+}
+#box4{
+    background-color: blue;
+}
+#box5{
+    background-color: chartreuse;
+}
+#box6{
+    background-color:rgb(226, 107, 207);
+}
+#box7{
+    background-color: antiquewhite;
+}
+#box8{
+    background-color:blue;
+}
