@@ -1,0 +1,9 @@
+.navbar{
+    background-color: aqua;
+}
+.navbar li a{
+    color: red;
+}
+.navbar-brand{
+    color: blueviolet;
+}
