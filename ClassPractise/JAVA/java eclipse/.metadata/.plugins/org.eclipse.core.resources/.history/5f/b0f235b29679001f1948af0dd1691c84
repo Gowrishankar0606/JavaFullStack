@@ -1,0 +1,19 @@
+package one.index;
+
+public class NormalMethod {
+
+	public void display()
+	{
+		System.out.print("Method with no parameter");
+	}
+	
+	public void display2(int a)
+	{
+		System.out.print("Method with parameter"+a);
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

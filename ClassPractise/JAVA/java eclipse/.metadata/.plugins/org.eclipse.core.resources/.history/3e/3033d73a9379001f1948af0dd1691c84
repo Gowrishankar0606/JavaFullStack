@@ -1,0 +1,18 @@
+package one.index;
+
+public class MethodusingIf {
+	
+	static void CheckVote(int age)
+	{
+		if(age<180)
+		{
+			System.out.println("Not eligible");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
