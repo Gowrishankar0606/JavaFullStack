@@ -16,7 +16,7 @@ public class add2umStatic {
 
         // Display the result
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + result);
-        System.out.println("GOwri");
+        System.out.println("Gowri");
         
     }
 	

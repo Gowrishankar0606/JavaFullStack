@@ -21,3 +21,8 @@ public class MethodOverloading {
 	}
 
 }
+
+
+//write a program in fibonic series 
+//write a program to reverse a integer
+//to add the sum of the digits 
