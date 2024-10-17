@@ -1,7 +1,7 @@
 package one.index;
 
 import java.util.HashMap;
-
+import java.util.Map;
 public class Hashmapone {
 
 	public static void main(String[] args) {
@@ -33,6 +33,23 @@ public class Hashmapone {
 		System.out.println("updated values after remove "+hm);
 		
 		//checking the key is present if it is print the value
+		//map traversal using for each loop 
+		
+		for(Map.Entry<String,Integer> e:hm.entrySet())
+			System.out.println("Key"+e.getKey()+"values"+e.getValue());
+		
+		if(hm.containsKey("Welcome"))
+		{
+			//mapping 
+			Integer a=hm.get("Welcome");
+			//printing the values for corresponding keys
+			System.out.println("value for key"+""+"welcome is"+a);
+		}
+		//Access the element 
+		System.out.println("Access the element"+""+hm.get("Come"));
+		
+		//Get the size fo the hash map
+		System.out.println("Size fo the element "+""+hm.size());
 		
 	}
 
