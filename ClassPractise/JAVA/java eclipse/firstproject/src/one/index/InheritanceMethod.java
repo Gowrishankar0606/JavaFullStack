@@ -4,8 +4,7 @@ public class InheritanceMethod {
 
 	public static void main (String args[])
 	{
-		Two t=new Two();
-		
+	
 	}
 
 }
@@ -19,7 +18,7 @@ class one{
 	}
 }
 
-class two{
+class  two{
 	public void printtwo(){
 		System.out.print("Print Two");
 	}

@@ -1,0 +1,4 @@
+Two of user thread and daemon thread.
+the task of daemon thread will not be completed
+program terminates as soon as user thread finishes its task
+it will not wait for daemon thread to finish its task

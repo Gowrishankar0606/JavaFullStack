@@ -1,0 +1,14 @@
+Deadloack is a condtion two or more thread are block indintly waitin gfor each other 
+to release a resourse then deadloack will happen this will happen when multi thread
+needs the same block but obtain in the different orders where it will occur in the database table,
+databse records, fetchin the table, filtering the records.
+
+How to avoid deadloac
+
+
+
+Using thre thread or join set the maximum wait time.
+You can syzchronised method.
+
+Sychronization is a process that allows only one thread tto complete a task at a
+time.Using Sychronized keyword you can execute one thread at a time.
